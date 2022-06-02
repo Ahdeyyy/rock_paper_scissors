@@ -23,14 +23,14 @@ while True:
     print(f"Player({choices[player_choice]}) : CPU({choices[ai_choice[0]]}) ")
     
     if player_choice == ai_choice[0]:
-        print("DRAW")
+        print("DRAW \nno winner play again")
     elif player_choice == 'R' and ai_choice[0] == 'S':
         print("Player Wins")
         break
-    elif player_choice == 'S' and ai_choice[0] == 'P':
+    elif player_choice == 'P' and ai_choice[0] == 'R':
         print("Player Wins")
         break
-    elif player_choice == 'P' and ai_choice[0] == 'R':
+    elif player_choice == 'S' and ai_choice[0] == 'P':
         print("Player Wins")
         break
     else:
