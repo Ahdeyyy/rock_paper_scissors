@@ -7,6 +7,7 @@ choices = {
     }
 
 print("""
+pick 
 R = rock
 P = paper
 S = scissors
